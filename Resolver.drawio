@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-14T12:53:37.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="23QIzoQGONGZxvpshnAE" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T13:30:14.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ftFVN4loiq77Njdq6Uqw" version="15.7.3" type="github">
   <diagram id="GLSMctoERfL2l0AfNuec" name="Page-1">
-    <mxGraphModel dx="1810" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,18 +61,6 @@
         <mxCell id="fm9e9En8npvXoQngV2XS-23" value="+ argument: String&#xa;+ command_class: Class&#xa;+ argument_type: Symbol" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fm9e9En8npvXoQngV2XS-22">
           <mxGeometry y="26" width="150" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="fm9e9En8npvXoQngV2XS-24" value="Banner" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="540" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fm9e9En8npvXoQngV2XS-25" value="+ command: Class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fm9e9En8npvXoQngV2XS-24">
-          <mxGeometry y="26" width="120" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="fm9e9En8npvXoQngV2XS-27" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.125;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fm9e9En8npvXoQngV2XS-12" target="fm9e9En8npvXoQngV2XS-24">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="130.98000000000002" y="410.0039999999999" as="sourcePoint" />
-            <mxPoint x="130" y="511.03" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.896;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fm9e9En8npvXoQngV2XS-12" target="fm9e9En8npvXoQngV2XS-22">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="258.75" y="481.94000000000005" as="sourcePoint" />
@@ -80,21 +68,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-31" value="Help" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="630" width="140" height="70" as="geometry" />
+          <mxGeometry x="-250" y="520" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-32" value="+ banner: String&#xa;+ error_message: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fm9e9En8npvXoQngV2XS-31">
           <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-35" value="InformativeError&#xa;&lt;module&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="540" width="140" height="50" as="geometry" />
+          <mxGeometry x="-250" y="430" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-36" value="+ exit_status: Numeric" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fm9e9En8npvXoQngV2XS-35">
           <mxGeometry y="26" width="140" height="24" as="geometry" />
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fm9e9En8npvXoQngV2XS-31" target="fm9e9En8npvXoQngV2XS-36">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-120" y="610" as="sourcePoint" />
-            <mxPoint x="40" y="610" as="targetPoint" />
+            <mxPoint x="-220" y="500" as="sourcePoint" />
+            <mxPoint x="-60" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-38" value="ANSI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
@@ -174,6 +162,24 @@
         </mxCell>
         <mxCell id="fm9e9En8npvXoQngV2XS-63" value="用于命令校验&lt;br&gt;&lt;br&gt;ARGV 分解项不为空时，根据分解项的类型从 Command 类中获取 :arg/:option/:flag 列表，根据字母距离推荐 :arg/:option/:flag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="575" y="630" width="135" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fm9e9En8npvXoQngV2XS-64" value="继承自 StandardError&lt;br&gt;如果命令校验失败，则抛出。&lt;br&gt;&lt;br&gt;banner =&amp;gt; 命令的标准描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="600" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fm9e9En8npvXoQngV2XS-65" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=10;exitX=-0.007;exitY=0.734;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fm9e9En8npvXoQngV2XS-12" target="fm9e9En8npvXoQngV2XS-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="520" as="sourcePoint" />
+            <mxPoint x="-60" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm9e9En8npvXoQngV2XS-66" value="options =&amp;gt; 命令分解项中所有 :option 或 :flag 类型&lt;br&gt;arguments =&amp;gt; 命令分解项中所有 :arg 类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fm9e9En8npvXoQngV2XS-67" value="自定义命令的参数，可选/必选，可重复/不可重复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="615" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fm9e9En8npvXoQngV2XS-68" value="命令分解器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="750" width="115" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
