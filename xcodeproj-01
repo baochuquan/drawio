@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T15:17:17.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="E4JhgT36AJERz9Yp3K7U" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T15:18:12.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MIXiFaGdEZhr-PVPQzvM" version="15.9.4" type="github">
   <diagram id="-Z1UzuaOVAZugfgyu1xM" name="Page-1">
-    <mxGraphModel dx="4823" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3238" dy="2026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="143FM89fW_Qd2UP0g7j5-1" value="XCBuildConfiguration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-1" value="XCBuildConfiguration" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="-622" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-2" value="+ name: String&#xa;&#xa;+ buildSettings: Map&#xa;&#xa;+ baseConfiguationReference: PBXFileReference&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-1">
@@ -13,13 +13,13 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-3" target="143FM89fW_Qd2UP0g7j5-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-3" value="PBXBuildFile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-3" value="PBXBuildFile" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-450" y="-60" width="300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-4" value="+ fileRef: [&#xa;                 PBXFileReference, &#xa;                 PBXGroup, &#xa;                 PBXVariantGroup,&#xa;                 XCVersionGroup, &#xa;                 PBXReferenceProxy&#xa;               ]&#xa;&#xa;+ settings: Hash&#xa;&#xa;+ productRef: XCSwiftPackageProductDependency&#xa;&#xa;+ platformFilter: String&#xa;&#xa;+ platformFilters: [String]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-3">
           <mxGeometry y="26" width="300" height="224" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-5" value="PBXBuildRule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-5" value="PBXBuildRule" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-735" y="-258.5" width="210" height="300" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-6" value="+ name: String&#xa;&#xa;+ compilerSpec: String&#xa;&#xa;+ fileType: String&#xa;&#xa;+ filePatterns: String&#xa;&#xa;+ isEditable: String&#xa;&#xa;+ inputFiles: [PBXFileReference]&#xa;&#xa;+ outputFiles: [PBXFileReference]&#xa;&#xa;+ outputFilesCompilerFlags: [String]&#xa; &#xa;+ runOncePerArchitecture: String&#xa;&#xa;+ script: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-5">
@@ -28,13 +28,13 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-8" target="143FM89fW_Qd2UP0g7j5-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-8" value="XCConfigurationList" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-8" value="XCConfigurationList" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1055" y="-802" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-9" value="+ defaultConfigurationIsVisible: String&#xa;&#xa;+ defaultConfigurationName: String&#xa;&#xa;+ buildConfigurations: [XCBuildConfiguration]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-8">
           <mxGeometry y="26" width="260" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-10" value="PBXContainerItemProxy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-10" value="PBXContainerItemProxy" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-95" y="-20" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-11" value="+ containerPortal: String =&gt; PBXProject&#xa;&#xa;+ proxyType: String&#xa;&#xa;+ remoteGlobalIDString: String =&gt; PBXTarget&#xa;&#xa;+ remoteInfo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-10">
@@ -43,7 +43,7 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-12" target="143FM89fW_Qd2UP0g7j5-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-12" value="PBXTargetDependency" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-12" value="PBXTargetDependency" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-260.5" width="230" height="190" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-13" value="+ target: PBXTarget&#xa;&#xa;+ targetProxy: PBXContainerItemProxy&#xa;&#xa;+ name: String&#xa;&#xa;+ platformFilter: String&#xa;&#xa;+ platformFilters: [Stirng]&#xa;&#xa;+ productRef: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-12">
@@ -52,7 +52,7 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-14" target="143FM89fW_Qd2UP0g7j5-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-14" value="PBXProject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-14" value="PBXProject" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-460" y="-927" width="320" height="360" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-15" value="+ targets: [PBXTarget]&#xa;&#xa;+ attributes: Hash&#xa;&#xa;+ buildConfigurationList: XCConfigurationList&#xa;&#xa;+ compatibilityVersion: String&#xa;&#xa;+ developmentRegion: String&#xa;&#xa;+ hasScannedForEncodings: String&#xa;&#xa;+ knownRegions: [String]&#xa;&#xa;+ mainGroup: PBXGroup&#xa;&#xa;+ productRefGroup: PBXGroup&#xa;&#xa;+ projectDirPath: String&#xa;&#xa;+ projectRoot: String&#xa;&#xa;+ packageReference: XCRemoteSwiftPackageReference" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-14">
@@ -61,13 +61,13 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-17" target="143FM89fW_Qd2UP0g7j5-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-17" value="XCSwiftPackageProductDependency" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-17" value="XCSwiftPackageProductDependency" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-435" y="230" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-18" value="+ package: XCRemoteSwiftPackageReference&#xa;&#xa;+ productName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-17">
           <mxGeometry y="26" width="270" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-19" value="XCRemoteSwiftPackageReference" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-19" value="XCRemoteSwiftPackageReference" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-425" y="350" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-20" value="+ repositoryURL: String&#xa;&#xa;+ requirement: Hash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-19">
@@ -81,7 +81,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-22" value="Root Element" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-22" value="Root Element" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-1050" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-23" value="+ archiveVersion: String&#xa;&#xa;+ classes: Hash&#xa;&#xa;+ objectVersion: String&#xa;&#xa;+ objcets: Map&#xa;&#xa;+ rootObject: PBXProject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-22">
@@ -95,7 +95,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-33" value="&lt;&lt; PBXTarget &gt;&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-33" value="&lt;&lt; PBXTarget &gt;&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-430" y="-512" width="260" height="156" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-34" value="&amp;nbsp;+ name: String&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;+ productName: String&lt;br&gt;&lt;br&gt;&amp;nbsp;+ comments: String&lt;br&gt;&lt;br&gt;&amp;nbsp;+ dependencies: [PBXTargetDependency]&lt;br&gt;&lt;br&gt;&amp;nbsp;+ buildConfigurationList: XCConfigurationList" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-33">
@@ -104,7 +104,7 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-35" target="143FM89fW_Qd2UP0g7j5-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-35" value="&lt;&lt; PBXBuildPhase &gt;&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-35" value="&lt;&lt; PBXBuildPhase &gt;&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-435" y="-258.5" width="270" height="160" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-36" value="+ files: [PBXBuildFile]&#xa;&#xa;+ buildActionMask: String&#xa;&#xa;+ runOnlyForDeploymentPostprocessing: String&#xa;&#xa;+ alwaysOutOfData: String&#xa;&#xa;+ comments: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-35">
@@ -124,7 +124,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-60" value="XCBuildConfiguration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-60" value="XCBuildConfiguration" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="-78.5" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-61" value="+ name: String&#xa;&#xa;+ buildSettings: Map&#xa;&#xa;+ baseConfiguationReference: PBXFileReference&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-60">
@@ -133,7 +133,7 @@
         <mxCell id="143FM89fW_Qd2UP0g7j5-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="143FM89fW_Qd2UP0g7j5-63" target="143FM89fW_Qd2UP0g7j5-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-63" value="XCConfigurationList" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="143FM89fW_Qd2UP0g7j5-63" value="XCConfigurationList" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1055" y="-258.5" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-64" value="+ defaultConfigurationIsVisible: String&#xa;&#xa;+ defaultConfigurationName: String&#xa;&#xa;+ buildConfigurations: [XCBuildConfiguration]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="143FM89fW_Qd2UP0g7j5-63">
