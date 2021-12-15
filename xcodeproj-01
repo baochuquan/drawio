@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T06:31:51.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="fxuilMh-qL8GhUhYO-ju" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T06:45:28.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eeYUg9cTVZDAm8Yss2pr" version="15.9.6" type="github">
   <diagram id="-Z1UzuaOVAZugfgyu1xM" name="Page-1">
     <mxGraphModel dx="3848" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-2" value="+ name: String&#xa;&#xa;+ buildSettings: Map&#xa;&#xa;+ baseConfiguationReference: PBXFileReference&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="143FM89fW_Qd2UP0g7j5-1" vertex="1">
           <mxGeometry y="26" width="290" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="143FM89fW_Qd2UP0g7j5-3" target="143FM89fW_Qd2UP0g7j5-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-3" value="PBXBuildFile" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-450" y="-60" width="300" height="250" as="geometry" />
@@ -57,21 +54,6 @@
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-15" value="+ targets: [PBXTarget]&#xa;&#xa;+ attributes: Hash&#xa;&#xa;+ buildConfigurationList: XCConfigurationList&#xa;&#xa;+ compatibilityVersion: String&#xa;&#xa;+ developmentRegion: String&#xa;&#xa;+ hasScannedForEncodings: String&#xa;&#xa;+ knownRegions: [String]&#xa;&#xa;+ mainGroup: PBXGroup&#xa;&#xa;+ productRefGroup: PBXGroup&#xa;&#xa;+ projectDirPath: String&#xa;&#xa;+ projectRoot: String&#xa;&#xa;+ packageReference: XCRemoteSwiftPackageReference" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="143FM89fW_Qd2UP0g7j5-14" vertex="1">
           <mxGeometry y="26" width="320" height="334" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="143FM89fW_Qd2UP0g7j5-17" target="143FM89fW_Qd2UP0g7j5-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-17" value="XCSwiftPackageProductDependency" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-435" y="230" width="270" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-18" value="+ package: XCRemoteSwiftPackageReference&#xa;&#xa;+ productName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="143FM89fW_Qd2UP0g7j5-17" vertex="1">
-          <mxGeometry y="26" width="270" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-19" value="XCRemoteSwiftPackageReference" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-425" y="350" width="250" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="143FM89fW_Qd2UP0g7j5-20" value="+ repositoryURL: String&#xa;&#xa;+ requirement: Hash" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="143FM89fW_Qd2UP0g7j5-19" vertex="1">
-          <mxGeometry y="26" width="250" height="54" as="geometry" />
         </mxCell>
         <mxCell id="143FM89fW_Qd2UP0g7j5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="143FM89fW_Qd2UP0g7j5-22" target="143FM89fW_Qd2UP0g7j5-14" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -143,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRE81oxZ_DT-_bZfBA3d-1" value="@chuquan.me" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="100" height="30" as="geometry" />
+          <mxGeometry x="40" y="150" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
