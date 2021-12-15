@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T08:31:59.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Uwvl3R3J8VFkGM4pea6A" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T08:45:56.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TZvtIwIsPYkqI5qdN4Hk" version="15.9.6" type="github">
   <diagram id="WRvtIKukbYQN0YBHId_A" name="Page-1">
-    <mxGraphModel dx="2593" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,22 +17,39 @@
           <mxGeometry y="26" width="340" height="254" as="geometry" />
         </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-8" value="PBXFileReference" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="230" width="240" height="440" as="geometry" />
+          <mxGeometry x="220" y="230" width="240" height="440" as="geometry" />
         </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-9" value="+ name: String&#xa;&#xa;+ path: String&#xa;&#xa;+ sourceTree: String&#xa;&#xa;+ explicitFileType: String&#xa;&#xa;+ lastKnownFileType: String&#xa;&#xa;+ includeInIndex: String&#xa;&#xa;+ fileEncoding: String&#xa;&#xa;+ xcLanguageSpecificationIdentifier: String&#xa;&#xa;+ plistStructureDefinitionIdentifier: String&#xa;&#xa;+ usersTabs: String&#xa;&#xa;indentWidth: String&#xa;&#xa;+ tabWidth: String&#xa;&#xa;+ wrapsLines: String&#xa;&#xa;+ lineEnding: String&#xa;&#xa;+comments: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-8">
           <mxGeometry y="26" width="240" height="414" as="geometry" />
         </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-10" value="PBXReferenceProxy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="230" width="220" height="160" as="geometry" />
+          <mxGeometry x="990" y="230" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-11" value="+ name: String&#xa;&#xa;+ path: String&#xa;&#xa;+ fileType: String&#xa;&#xa;+ remoteRef: PBXContainerItemProxy&#xa;&#xa;+ sourceTree: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-10">
           <mxGeometry y="26" width="220" height="134" as="geometry" />
         </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="RU-Wp2cC4yvuGT38eQzS-12" target="RU-Wp2cC4yvuGT38eQzS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-12" value="PBXVariantGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="230" width="220" height="50" as="geometry" />
+          <mxGeometry x="490" y="590" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RU-Wp2cC4yvuGT38eQzS-13" value="+ lastKnownFileType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-12">
           <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;strokeWidth=1;jumpSize=5;" edge="1" parent="1" source="RU-Wp2cC4yvuGT38eQzS-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-15" value="XCVersionGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="590" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-16" value="+ current_version: PBXFileReference&#xa;&#xa;+ version_group_type: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-15">
+          <mxGeometry y="26" width="220" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
