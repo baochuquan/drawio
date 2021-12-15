@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T08:28:45.236Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="-mCy4179ETaLvt4EZWrU" type="github"><diagram id="WRvtIKukbYQN0YBHId_A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T08:31:59.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Uwvl3R3J8VFkGM4pea6A" version="15.9.6" type="github">
+  <diagram id="WRvtIKukbYQN0YBHId_A" name="Page-1">
+    <mxGraphModel dx="2593" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="1240" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-3" value="@chuquan.me" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="644" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-6" value="PBXGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-7" value="+ name: String&#xa;&#xa;+ path: String&#xa;&#xa;+ child: [PBXGroup, PBXFileReference, PBXReferenceProxy]&#xa;&#xa;+ sourceTree: String&#xa;&#xa;+ usesTabs: String&#xa;&#xa;+ indentWidth: String&#xa;&#xa;+ tabWidth: String&#xa;&#xa;+ wrapsLines: String&#xa;&#xa;+ comments: String&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-6">
+          <mxGeometry y="26" width="340" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-8" value="PBXFileReference" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-9" value="+ name: String&#xa;&#xa;+ path: String&#xa;&#xa;+ sourceTree: String&#xa;&#xa;+ explicitFileType: String&#xa;&#xa;+ lastKnownFileType: String&#xa;&#xa;+ includeInIndex: String&#xa;&#xa;+ fileEncoding: String&#xa;&#xa;+ xcLanguageSpecificationIdentifier: String&#xa;&#xa;+ plistStructureDefinitionIdentifier: String&#xa;&#xa;+ usersTabs: String&#xa;&#xa;indentWidth: String&#xa;&#xa;+ tabWidth: String&#xa;&#xa;+ wrapsLines: String&#xa;&#xa;+ lineEnding: String&#xa;&#xa;+comments: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-8">
+          <mxGeometry y="26" width="240" height="414" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-10" value="PBXReferenceProxy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="230" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-11" value="+ name: String&#xa;&#xa;+ path: String&#xa;&#xa;+ fileType: String&#xa;&#xa;+ remoteRef: PBXContainerItemProxy&#xa;&#xa;+ sourceTree: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-10">
+          <mxGeometry y="26" width="220" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-12" value="PBXVariantGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="230" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RU-Wp2cC4yvuGT38eQzS-13" value="+ lastKnownFileType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RU-Wp2cC4yvuGT38eQzS-12">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
