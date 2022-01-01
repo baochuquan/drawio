@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T09:35:54.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oOSwerUidvwCjuwYKenh" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T09:43:41.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qVllg4cHLS6mhq7_OXjv" version="16.1.0" type="github">
   <diagram id="psaWNng2ZsPH9CDnSwhM" name="Page-1">
     <mxGraphModel dx="3720" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,18 @@
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-13" value="+ source_repos: Array&lt;Pathname&gt;&#xa;&#xa;+ aggregate: Aggregate&#xa;&#xa;+ aggregate_for_dependency(dependency): Dependency&#xa;&#xa;+ sources(names): Array&lt;Source&gt;&#xa;&#xa;+ all: Array&lt;Source&gt;&#xa;&#xa;+ all_non_indexable: Array&lt;Source&gt;&#xa;&#xa;+ master: Array&lt;Source&gt;&#xa;&#xa;+ master_repo_dir: Pathname&#xa;&#xa;+ mater_repo_functional?: Boolean&#xa;&#xa;+ search(dependency): [Set, nil]&#xa;&#xa;+ search_by_name(query, full_text_search = false): Array&lt;Set&gt;&#xa;&#xa;+ sorted_sets(sets, query_word_regexps): Array&lt;Regexp&gt;&#xa;&#xa;+ updated_search_index: Hash{String =&gt; Hash{String =&gt; Array&lt;String&gt;}}&#xa;&#xa;+ update_search_index_if_needed(changed_spec_paths): Hash{Source =&gt; Array&lt;String&gt;}&#xa;&#xa;+ update_search_index_if_needed_in_background(change_spec_paths): Hash{Source =&gt; Array&lt;String&gt;}&#xa;&#xa;+ stored_search_index&#xa;&#xa;+ save_search_index(index)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-10">
           <mxGeometry y="118" width="400" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-15" value="Metadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="340" width="440" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-16" value="+ minimum_cocoapods_version: Version&#xa;&#xa;+ maximum_cocoapods_version: Version&#xa;&#xa;+ lastet_cocoapods_version: Version&#xa;&#xa;+ prefix_lengths: Array&lt;Object&gt;&#xa;&#xa;+ last_compatible_versions: Array&lt;Version&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
+          <mxGeometry y="26" width="440" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
+          <mxGeometry y="160" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-18" value="+ self.from_file(file): Metadata&#xa;&#xa;+ to_hash: HashWithIndifferentAccess&#xa;&#xa;+ path_fragment(pod_name, version = nil)&#xa;&#xa;+ last_compatible_version(target_version): Version&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;+ representative_set(name): Set&#xa;&#xa;+ search(dependency): [Set, nil]&#xa;&#xa;+ search_by_name(query, full_text_search = false): Array&lt;Set&gt;&#xa;&#xa;+ generate_search_index_for_source(source): Source&#xa;&#xa;+ generate_search_index_for_changes_in_source(source, spec_paths): Source" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
+          <mxGeometry y="168" width="440" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
