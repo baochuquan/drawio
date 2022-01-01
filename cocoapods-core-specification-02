@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T09:43:41.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qVllg4cHLS6mhq7_OXjv" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T12:09:06.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GHZloCXP1qha8xlH_Pyd" version="16.1.0" type="github">
   <diagram id="psaWNng2ZsPH9CDnSwhM" name="Page-1">
-    <mxGraphModel dx="3720" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4237" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,8 +16,13 @@
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-4" value="+ name: String&#xa;&#xa;+ url: String&#xa;&#xa;+ pod_path(name): String&#xa;&#xa;+ pods: Array&lt;String&gt;&#xa;&#xa;+ pods_for_specification_paths(spec_paths): Array&lt;String&gt;&#xa;&#xa;+ versions(name): Array&lt;Version&gt;&#xa;&#xa;+ specification(name, version): Specification&#xa;&#xa;+ specification_path(name, version): String&#xa;&#xa;+ all_specs: Array&lt;Specification&gt;&#xa;&#xa;+ set(pod_name): Set&#xa;&#xa;+ pod_sets: Array&lt;Set&gt;&#xa;&#xa;+ search(query): Set&#xa;&#xa;+ search_by_name(query, full_text_search = false): Array&lt;Set&gt;&#xa;&#xa;+ update(show_output): Array&lt;String&gt;&#xa;&#xa;+ updatable?: Boolean&#xa;&#xa;+ git?: Boolean&#xa;&#xa;+ indexable?: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-1">
           <mxGeometry y="88" width="350" height="472" as="geometry" />
         </mxCell>
-        <mxCell id="ma4x7F_vGjIb2MWTUlnS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-5" target="ma4x7F_vGjIb2MWTUlnS-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-450" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-450" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-5" value="Aggregate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-990" y="340" width="440" height="260" as="geometry" />
@@ -31,8 +36,14 @@
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-8" value="+ all_pods: Array&lt;String&gt; &#xa;&#xa;+ all_sets: Array&lt;Set&gt;&#xa;&#xa;+ representative_set(name): Set&#xa;&#xa;+ search(dependency): [Set, nil]&#xa;&#xa;+ search_by_name(query, full_text_search = false): Array&lt;Set&gt;&#xa;&#xa;+ generate_search_index_for_source(source): Source&#xa;&#xa;+ generate_search_index_for_changes_in_source(source, spec_paths): Source" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-5">
           <mxGeometry y="58" width="440" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="ma4x7F_vGjIb2MWTUlnS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-10" target="ma4x7F_vGjIb2MWTUlnS-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-990" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1070" y="390" />
+              <mxPoint x="-1070" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-10" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="340" width="400" height="590" as="geometry" />
@@ -47,16 +58,40 @@
           <mxGeometry y="118" width="400" height="472" as="geometry" />
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-15" value="Metadata" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry y="340" width="440" height="370" as="geometry" />
+          <mxGeometry y="340" width="290" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-16" value="+ minimum_cocoapods_version: Version&#xa;&#xa;+ maximum_cocoapods_version: Version&#xa;&#xa;+ lastet_cocoapods_version: Version&#xa;&#xa;+ prefix_lengths: Array&lt;Object&gt;&#xa;&#xa;+ last_compatible_versions: Array&lt;Version&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
-          <mxGeometry y="26" width="440" height="134" as="geometry" />
+          <mxGeometry y="26" width="290" height="134" as="geometry" />
         </mxCell>
         <mxCell id="ma4x7F_vGjIb2MWTUlnS-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
-          <mxGeometry y="160" width="440" height="8" as="geometry" />
+          <mxGeometry y="160" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ma4x7F_vGjIb2MWTUlnS-18" value="+ self.from_file(file): Metadata&#xa;&#xa;+ to_hash: HashWithIndifferentAccess&#xa;&#xa;+ path_fragment(pod_name, version = nil)&#xa;&#xa;+ last_compatible_version(target_version): Version&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;+ representative_set(name): Set&#xa;&#xa;+ search(dependency): [Set, nil]&#xa;&#xa;+ search_by_name(query, full_text_search = false): Array&lt;Set&gt;&#xa;&#xa;+ generate_search_index_for_source(source): Source&#xa;&#xa;+ generate_search_index_for_changes_in_source(source, spec_paths): Source" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
-          <mxGeometry y="168" width="440" height="202" as="geometry" />
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-18" value="+ path_fragment(pod_name, version = nil): String&#xa;&#xa;+ to_hash: HashWithIndifferentAccess&#xa;&#xa;+ last_compatible_version(target_version): Version&#xa;&#xa;+ compatible?(version): Boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-15">
+          <mxGeometry y="168" width="290" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="390" />
+              <mxPoint y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-20" value="Specification" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="650" width="640" height="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-21" value="+ parent: Specification&#xa;&#xa;+ hash_value: Integer&#xa;&#xa;+ attributes_hash: Hash&#xa;&#xa;+ subspecs: Array&lt;Specification&gt;&#xa;&#xa;+ consumers: Array&lt;Consumer&gt;&#xa;&#xa;+ test_specification: Boolean&#xa;&#xa;+ app_specification: Boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-20">
+          <mxGeometry y="26" width="640" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-20">
+          <mxGeometry y="220" width="640" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-23" value="+ hash: Fixnum&#xa;&#xa;+ self.name_and_version_from_string(string_representation): Array&lt;String, Version&gt;&#xa;&#xa;+ self.root_name(full_name): String&#xa;&#xa;+ module_name: String&#xa;&#xa;+ root: Specification&#xa;&#xa;+ root?: Boolean&#xa;&#xa;+ supspec?: Boolean&#xa;&#xa;+ spec_type: Symbol&#xa;&#xa;+ library_specification? Boolean&#xa;&#xa;+ non_library_specification?: Boolean&#xa;&#xa;+ test_type: Symbol&#xa;&#xa;+ test_specs: Array&lt;Specification&gt;&#xa; &#xa;+ app_specs: Array&lt;Specification&gt;&#xa;&#xa;+ non_library_specs: Array&lt;Specification&gt;&#xa;&#xa;+ recursive_subspecs: Array&lt;Speficiation&gt;&#xa;&#xa;+ subspec_by_name(relative_name, raise_if_missing = true, include_non_library_specifications = false): Specification&#xa;&#xa;+ default_subspecs: [Array&lt;String&gt;, Symbol]&#xa;&#xa;+ subspec_dependencies(platform = nil): Array&lt;Dependency&gt;&#xa;&#xa;+ dependencies(platform = nil): Array&lt;Dependency&gt;&#xa;&#xa;+ all_dependencies(platform = nil): Array&lt;Dependency&gt;&#xa;&#xa;+ dependency_whitelisted_for_configuration?(dependency, configuration): Boolean&#xa;&#xa;+ consumer(platform): Consumer&#xa;&#xa;+ prefix_header_file: [Boolean, String]&#xa;&#xa;+ script_phases: Array&lt;Hash{Symbol =&gt; String}&gt;&#xa;&#xa;+ on_demand_resources: Hash&#xa;&#xa;+ scheme: Hash&#xa;&#xa;+ info_plist: Hash&#xa;&#xa;+ local?: Boolean&#xa;&#xa;+ supported_on_platform?(*platform): Boolean&#xa;&#xa;+ available_platforms: Array&lt;Platform&gt;&#xa;&#xa;+ deployment_target(platform_name): String&#xa;&#xa;+ store_attribute(name, value, platform_name = nil)&#xa;&#xa;+ self.convert_keys_to_string(value, recursive: true): Hash&#xa;&#xa;+ self.convert_keys_to_symbol(value, recursive: true): Hash&#xa;&#xa;+ checksum: String&#xa;&#xa;+ defined_in_file: String&#xa;&#xa;+ self.from_file(path, subspec_name = nil): Specification&#xa;&#xa;+ self.from_string(spec_contents, path, subspec_name = nil): Specification&#xa;&#xa;+ DSL.attribuets" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ma4x7F_vGjIb2MWTUlnS-20">
+          <mxGeometry y="228" width="640" height="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="ma4x7F_vGjIb2MWTUlnS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ma4x7F_vGjIb2MWTUlnS-4" target="ma4x7F_vGjIb2MWTUlnS-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
