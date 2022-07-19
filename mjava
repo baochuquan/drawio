@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T14:07:15.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-hZ4mYyZkOc-IKN8gvPN" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T14:10:33.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HSXLNri_hQViHWFeyfuj" version="20.1.1" type="github">
   <diagram id="Xeop-XBmxlrG0Cg5-nTS" name="Page-1">
-    <mxGraphModel dx="1584" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IUQ-rbdl-R_icRGetNbz-3" value="env0&#xa;&lt;Global Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="289" y="440" width="200" height="120" as="geometry" />
+          <mxGeometry x="278.5" y="440" width="221" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-4" value="String =&gt; (7String, 7 String, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-4" value="String =&gt; Symb(7String, 7 String, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
+          <mxGeometry y="30" width="221" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-5" value="Int =&gt; (7Int, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
-          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-5" value="Int      =&gt; Symb(7Int, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
+          <mxGeometry y="60" width="221" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-6" value="Test =&gt; (7Test, 7Test, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
-          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-6" value="Test    =&gt; Symb(7Test, 7Test, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-3">
+          <mxGeometry y="90" width="221" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-7" value="types" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980" y="410" width="340" height="270" as="geometry">
@@ -51,16 +51,16 @@
         <mxCell id="IUQ-rbdl-R_icRGetNbz-11" value="env2&#xa;&lt;Int Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="289" y="640" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-12" value="n =&gt; (2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-12" value="n     =&gt; Symb(2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-13" value="Int =&gt; (922907Int, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-13" value="Int   =&gt; Symb(922907Int, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-14" value="f =&gt; (9352, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-14" value="f      =&gt; Symb(9352, 7Int, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-37" value="fact =&gt; (9322, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-37" value="fact =&gt; Symb(9322, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-11">
           <mxGeometry y="120" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUQ-rbdl-R_icRGetNbz-24" target="IUQ-rbdl-R_icRGetNbz-11">
@@ -75,7 +75,7 @@
         <mxCell id="IUQ-rbdl-R_icRGetNbz-24" value="env3&#xa;&lt;Int.Int Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="990" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-25" value="i =&gt; (2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-24">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-25" value="i =&gt; Symb(2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-24">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IUQ-rbdl-R_icRGetNbz-38" target="IUQ-rbdl-R_icRGetNbz-37">
@@ -90,7 +90,7 @@
         <mxCell id="IUQ-rbdl-R_icRGetNbz-38" value="env5&#xa;&lt;Int.fact Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="990" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-39" value="n =&gt; (2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-38">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-39" value="n =&gt; Symb(2, 7Int, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-38">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUQ-rbdl-R_icRGetNbz-49" target="IUQ-rbdl-R_icRGetNbz-3">
@@ -104,7 +104,7 @@
         <mxCell id="IUQ-rbdl-R_icRGetNbz-49" value="env6&#xa;&lt;Test Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="640" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-50" value="main =&gt; (9355, 7Test, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-49">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-50" value="main =&gt; Symb(9355, 7Test, true)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-49">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IUQ-rbdl-R_icRGetNbz-54" target="IUQ-rbdl-R_icRGetNbz-50">
@@ -113,13 +113,13 @@
         <mxCell id="IUQ-rbdl-R_icRGetNbz-54" value="env7&#xa;&lt;Test.main Env&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="750" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-55" value="n =&gt; (2, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-55" value="n =&gt; Symb(2, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-56" value="f =&gt; (2, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-56" value="f =&gt; Symb(2, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUQ-rbdl-R_icRGetNbz-57" value="t =&gt; (907Int, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
+        <mxCell id="IUQ-rbdl-R_icRGetNbz-57" value="t =&gt; Symb(907Int, 7Test, false)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IUQ-rbdl-R_icRGetNbz-54">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUQ-rbdl-R_icRGetNbz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUQ-rbdl-R_icRGetNbz-68">
