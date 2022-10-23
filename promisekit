@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T06:59:21.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U-GmC562H3ONhVLcGkSw" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T07:54:12.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1XmUd_g9stWLN6sFftt6" version="20.2.4" type="github">
   <diagram id="V2XxIQxbDiyWzBA5FQsx" name="第 1 页">
-    <mxGraphModel dx="2505" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tchA_NegKfVTS9piJ461-7" value="enum Result&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-150" y="864" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="tchA_NegKfVTS9piJ461-8" value="fulfilled&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-7">
+        <mxCell id="tchA_NegKfVTS9piJ461-8" value="fulfilled(T)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-7">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-7">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tchA_NegKfVTS9piJ461-10" value="rejected&lt;Error&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-7">
+        <mxCell id="tchA_NegKfVTS9piJ461-10" value="rejected(Error)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-7">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-11" value="Resolver&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -107,25 +107,33 @@
           <mxGeometry y="112" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="tchA_NegKfVTS9piJ461-39" target="tchA_NegKfVTS9piJ461-27">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-172" y="810" />
+              <mxPoint x="-302" y="810" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-39" value="EmptyBox&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="630" width="195" height="138" as="geometry" />
+          <mxGeometry x="-270" y="630" width="195" height="164" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-40" value="- sealant: Sealant&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
           <mxGeometry y="26" width="195" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="tchA_NegKfVTS9piJ461-121" value="- barrier: DispatchQueue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
+          <mxGeometry y="52" width="195" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
-          <mxGeometry y="52" width="195" height="8" as="geometry" />
+          <mxGeometry y="78" width="195" height="8" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-42" value="+ inspect() -&gt; Sealant&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
-          <mxGeometry y="60" width="195" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="tchA_NegKfVTS9piJ461-43" value="+ inspect(_: (Sealant&lt;T&gt;) -&gt; Void)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
           <mxGeometry y="86" width="195" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tchA_NegKfVTS9piJ461-44" value="+ seal(_: T)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
+        <mxCell id="tchA_NegKfVTS9piJ461-43" value="+ inspect(_: (Sealant&lt;T&gt;) -&gt; Void)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
           <mxGeometry y="112" width="195" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tchA_NegKfVTS9piJ461-44" value="+ seal(_: T)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-39">
+          <mxGeometry y="138" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-48" value="Thenable&#xa;&lt;&lt; protocol &gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="850" width="240" height="516" as="geometry" />
@@ -191,61 +199,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-55" value="Guarantee&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="290" width="210" height="476" as="geometry" />
+          <mxGeometry x="-30" y="290" width="250" height="476" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-56" value="+ box: Box&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="52" width="210" height="8" as="geometry" />
+          <mxGeometry y="52" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-58" value="+ value(_ value: T) -&gt; Guarantee&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="60" width="210" height="26" as="geometry" />
+          <mxGeometry y="60" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-59" value="+ pipe(to: (Result&lt;T&gt;) -&gt; Void)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="86" width="210" height="26" as="geometry" />
+          <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-60" value="+ pipe(to: (T) -&gt; Void)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="112" width="210" height="26" as="geometry" />
+          <mxGeometry y="112" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-92" value="+ result: Result&lt;T&gt;?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="138" width="210" height="26" as="geometry" />
+          <mxGeometry y="138" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-91" value="+ done(...) -&gt; Guarantee&lt;Void&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="164" width="210" height="26" as="geometry" />
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-94" value="+ get(...) -&gt; Guarantee&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="190" width="210" height="26" as="geometry" />
+          <mxGeometry y="190" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-93" value="+ map(...) -&gt; Guarantee&lt;U&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="216" width="210" height="26" as="geometry" />
+          <mxGeometry y="216" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-96" value="+ then(...) -&gt; Guarantee&lt;U&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="242" width="210" height="26" as="geometry" />
+          <mxGeometry y="242" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-97" value="+ asVoid(...) -&gt; Guarantee&lt;Void&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="268" width="210" height="26" as="geometry" />
+          <mxGeometry y="268" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-95" value="+ wait() -&gt; T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="294" width="210" height="26" as="geometry" />
+          <mxGeometry y="294" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-98" value="+ mapValues(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="320" width="210" height="26" as="geometry" />
+          <mxGeometry y="320" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-99" value="+ flatMapValues(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="346" width="210" height="26" as="geometry" />
+          <mxGeometry y="346" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-101" value="+ compactMapValues(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="372" width="210" height="26" as="geometry" />
+          <mxGeometry y="372" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-102" value="+ thenFlatMap(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="398" width="210" height="26" as="geometry" />
+          <mxGeometry y="398" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-103" value="+ filterValues(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="424" width="210" height="26" as="geometry" />
+          <mxGeometry y="424" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-100" value="+ sortedValues(...) -&gt; Guarantee&lt;[U]&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-55">
-          <mxGeometry y="450" width="210" height="26" as="geometry" />
+          <mxGeometry y="450" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="tchA_NegKfVTS9piJ461-61">
           <mxGeometry relative="1" as="geometry">
@@ -256,36 +264,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tchA_NegKfVTS9piJ461-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="tchA_NegKfVTS9piJ461-61" target="tchA_NegKfVTS9piJ461-104">
+        <mxCell id="tchA_NegKfVTS9piJ461-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tchA_NegKfVTS9piJ461-61" target="tchA_NegKfVTS9piJ461-104">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="535" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-61" value="Promise&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="440" width="195" height="190" as="geometry" />
+          <mxGeometry x="240" y="440" width="340" height="190" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-62" value="+ box: Box&lt;Result&lt;T&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="26" width="195" height="26" as="geometry" />
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="52" width="195" height="8" as="geometry" />
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-64" value="+ value(_ value: T) -&gt; Promise&lt;T&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="60" width="195" height="26" as="geometry" />
+          <mxGeometry y="60" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-65" value="+ pending() -&gt; (promise: Promise&lt;T&gt;, resolver: Resolver&lt;T&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="86" width="195" height="26" as="geometry" />
+          <mxGeometry y="86" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-66" value="+ pipe(to: (Result&lt;T&gt;) -&gt; Void)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="112" width="195" height="26" as="geometry" />
+          <mxGeometry y="112" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-89" value="+ result: Result&lt;T&gt;?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="138" width="195" height="26" as="geometry" />
+          <mxGeometry y="138" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-88" value="+ wait() -&gt; T" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tchA_NegKfVTS9piJ461-61">
-          <mxGeometry y="164" width="195" height="26" as="geometry" />
+          <mxGeometry y="164" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tchA_NegKfVTS9piJ461-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="tchA_NegKfVTS9piJ461-104" target="tchA_NegKfVTS9piJ461-108">
           <mxGeometry relative="1" as="geometry" />
